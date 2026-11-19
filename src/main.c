@@ -27,7 +27,7 @@ int main(int argc, char *argv[]){
 		printf("%lf",r);
 	}
 	else if (strcmp(op, "car") == 0) {
-		r = _car(atof(a));
+		r = _car(atof(argv[2]));
 		printf("%lf",r);
 	}
 	
